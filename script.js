@@ -39,8 +39,8 @@ function playRound(humanChoice) {
   let computerChoice = getComputerChoice();
 
   if (humanChoice === computerChoice) {
-    result.textContent = `It's a draw you both choose ${computerChoice}`;
-    console.log(`It's a draw you both choose ${computerChoice}`);
+    result.textContent = `It's a draw you both chose ${computerChoice}`;
+    console.log(`It's a draw you both chose ${computerChoice}`);
   } else if (
     (humanChoice === "rock" && computerChoice === "scissors") ||
     (humanChoice === "paper" && computerChoice === "rock") ||
