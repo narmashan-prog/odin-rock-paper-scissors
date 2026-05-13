@@ -1,0 +1,30 @@
+* {
+  align-items: center;
+}
+
+h5 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  color: blue;
+}
+
+div {
+  margin: 20px;
+  box-sizing: border-box;
+  box-shadow: darkgrey;
+  text-align: center;
+  padding: 100px;
+}
+
+button:enabled {
+  border-radius: 5px;
+  border-color: black;
+  color: blue;
+  background-color: aqua;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
